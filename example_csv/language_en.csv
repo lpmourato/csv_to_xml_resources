@@ -1,0 +1,17 @@
+string_name,string_value
+cancel,CANCEL
+carrier,Carrier
+country,Country
+discard,DISCARD
+dialog_discard_msg,Discard modifications?
+email,Email
+end_customer,Customer
+finish,Finish
+invalid_country,Invalid country.
+invalid_email,Invalid email.
+invalid_end_customer,Invalid customer.
+unzip_loading_message,"Loading content.
+It will might take some time."
+dialog_title_loading,Loading Content…
+next,Next
+notes,Notes
