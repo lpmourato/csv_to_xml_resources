@@ -1,0 +1,47 @@
+string_name,string_value
+subject_part_II,- SBS
+choose_zip_instruction,Browse the zipfile in your file system to load app content.
+cancel,CANCEL
+carrier,Carrier
+country,Country
+discard,DISCARD
+dialog_discard_msg,Discard modifications?
+email,Email
+end_customer,Customer
+closing_date,Expected closing date
+finish,Finish
+invalid_carrier,Invalid carrier.
+invalid_closing_date,Invalid closing date.
+invalid_country,Invalid country.
+invalid_email,Invalid email.
+invalid_end_customer,Invalid customer.
+invalid_lead_name,Invalid lead name.
+invalid_notes,Invalid notes.
+lead_name,Lead name
+lead_submission,Lead Submission
+unzip_loading_message,"Loading content.
+It will might take some time."
+dialog_title_loading,Loading Content…
+next,Next
+notes,Notes
+choose_title,Please choose one application to open it
+welcome_subtitle,"Please, complete the steps for first usage"
+promotional_item,PROMOTIONAL
+save,SAVE
+app_name,SBS
+send_email,Send
+lead_title,SET YOUR PROFILE
+invalid_zip_file,This zipfile has no valid content
+training_item,TRAINING
+menu_update_content,Update content
+user_profile,User Profile
+successfully,User profile successfully saved.
+menu_user_settings,User settings
+welcome_title,Welcome to SBS
+toast_activity_not_found,Your device has no application to read this content format.
+lang_eng,English
+lang_chn,Chinese
+lang_fre,French
+lang_ger,German
+lang_por,Portuguese
+lang_spa,Spanish
