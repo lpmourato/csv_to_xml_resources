@@ -1,5 +1,11 @@
 #!/bin/bash
+
 INPUT=$1 #~/Desktop/languages_pt.csv
+if [ "$INPUT" = "" ];then
+    echo "inform the file param"
+    exit 1
+fi
+
 OUTPUT=${INPUT%.*}.xml
 OLDIFS=$IFS
 IFS=,
@@ -8,7 +14,7 @@ echo "<?xml version="\"1.0"\" encoding="\"utf-8?"\">" > $OUTPUT
 echo "<resources>" >> $OUTPUT
 while read string_name string_value
 do
-	echo "<string name="\"$string_name"\">$string_value</string>" >> $OUTPUT
+    echo "<string name=\"$string_name\">$string_value</string>" >> $OUTPUT
 done < $INPUT
 IFS=$OLDIFS
 echo "</resources>" >> $OUTPUT
